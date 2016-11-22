@@ -1,0 +1,6 @@
+/target/
+.settings
+.classpath
+.git
+.project
+deployerWar.bat
