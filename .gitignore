@@ -3,4 +3,7 @@
 .classpath
 .git
 .project
+.factorypath
+.springBeans
 deployerWar.bat
+myApp3.log
