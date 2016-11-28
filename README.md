@@ -19,5 +19,8 @@ But will come soon.
     <li>import javax.annotation.concurrent.NotThreadSafe</li>    
   </ul> 
 </div>
- 
+</br>
+<div>
+  Add a connection to database with DraverManagerDataSource.
+</div>
 
