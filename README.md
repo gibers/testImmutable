@@ -24,11 +24,11 @@ But will come soon.
 <div>  Add a connection to database with DraverManagerDataSource.</div>
 <div>
   Soon try pooled data source, like these one :
-  <lu>
+  <ul>
     <li>Apache Commons DBCP (http://jakarta.apache.org/commons/dbcp)</li>
     <li>c3p0 (http://sourceforge.net/projects/c3p0/)</li>
     <li>BoneCP (http://jolbox.com/)</li>
-  </lu>
+  </ul>
 
 </div>
 
