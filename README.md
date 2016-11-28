@@ -20,7 +20,15 @@ But will come soon.
   </ul> 
 </div>
 </br>
+<div> On 28/11/2016 </div>
+<div>  Add a connection to database with DraverManagerDataSource.</div>
 <div>
-  Add a connection to database with DraverManagerDataSource.
+  Soon try pooled data source, like these one :
+  <lu>
+    <li>Apache Commons DBCP (http://jakarta.apache.org/commons/dbcp)</li>
+    <li>c3p0 (http://sourceforge.net/projects/c3p0/)</li>
+    <li>BoneCP (http://jolbox.com/)</li>
+  </lu>
+
 </div>
 
