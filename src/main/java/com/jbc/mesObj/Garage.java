@@ -41,6 +41,18 @@ public class Garage {
 //		log.debug(ReflectionToStringBuilder.toString(ll, ToStringStyle.MULTI_LINE_STYLE));
 //		return contactRep.findAll();
 	}
+	
+	public void getOneContact(long id) {
+		ImmutableContact c1 = (ImmutableContact) contactRep.findById1(id);
+		log.debug(c1.toString());
+	}
+	
+	public void getOneContact1(long id, String email) {
+		ImmutableContact c1 = (ImmutableContact) contactRep.findById2(id, email);
+		log.debug(c1.toString());
+	}
 
 }
+
+
 

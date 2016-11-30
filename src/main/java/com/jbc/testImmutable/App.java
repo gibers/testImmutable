@@ -33,7 +33,9 @@ public class App {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
         Garage garage = context.getBean(Garage.class);        
         garage.affiche();
-        garage.listAll();
+//        garage.listAll();
+        garage.getOneContact1(3, "chbaptiss@hotmail.fr");
+        garage.getOneContact1(1, "chbaptis@hotmail.fr");
         
         FoobarValue value = ImmutableFoobarValue.builder().foo(2).bar("Bar").addBuz(1,2,3).build();
         
